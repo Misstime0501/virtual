@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		71F4F2E61ADE0C6D00FBAE73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F4F2E51ADE0C6D00FBAE73 /* main.m */; };
-		71F4F2E91ADE0C6D00FBAE73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F4F2E81ADE0C6D00FBAE73 /* AppDelegate.m */; };
-		71F4F2EC1ADE0C6D00FBAE73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F4F2EB1ADE0C6D00FBAE73 /* ViewController.m */; };
+		71F4F2E91ADE0C6D00FBAE73 /* WPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F4F2E81ADE0C6D00FBAE73 /* WPAppDelegate.m */; };
+		71F4F2EC1ADE0C6D00FBAE73 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F4F2EB1ADE0C6D00FBAE73 /* LoginViewController.m */; };
 		71F4F2EF1ADE0C6D00FBAE73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F4F2ED1ADE0C6D00FBAE73 /* Main.storyboard */; };
 		71F4F2F11ADE0C6D00FBAE73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71F4F2F01ADE0C6D00FBAE73 /* Images.xcassets */; };
 		71F4F2F41ADE0C6D00FBAE73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71F4F2F21ADE0C6D00FBAE73 /* LaunchScreen.xib */; };
@@ -30,10 +30,10 @@
 		71F4F2E01ADE0C6D00FBAE73 /* virtual_phone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = virtual_phone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71F4F2E41ADE0C6D00FBAE73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71F4F2E51ADE0C6D00FBAE73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		71F4F2E71ADE0C6D00FBAE73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		71F4F2E81ADE0C6D00FBAE73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		71F4F2EA1ADE0C6D00FBAE73 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		71F4F2EB1ADE0C6D00FBAE73 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71F4F2E71ADE0C6D00FBAE73 /* WPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPAppDelegate.h; sourceTree = "<group>"; };
+		71F4F2E81ADE0C6D00FBAE73 /* WPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPAppDelegate.m; sourceTree = "<group>"; };
+		71F4F2EA1ADE0C6D00FBAE73 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		71F4F2EB1ADE0C6D00FBAE73 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		71F4F2EE1ADE0C6D00FBAE73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71F4F2F01ADE0C6D00FBAE73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		71F4F2F31ADE0C6D00FBAE73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -81,10 +81,10 @@
 		71F4F2E21ADE0C6D00FBAE73 /* virtual_phone */ = {
 			isa = PBXGroup;
 			children = (
-				71F4F2E71ADE0C6D00FBAE73 /* AppDelegate.h */,
-				71F4F2E81ADE0C6D00FBAE73 /* AppDelegate.m */,
-				71F4F2EA1ADE0C6D00FBAE73 /* ViewController.h */,
-				71F4F2EB1ADE0C6D00FBAE73 /* ViewController.m */,
+				71F4F2E71ADE0C6D00FBAE73 /* WPAppDelegate.h */,
+				71F4F2E81ADE0C6D00FBAE73 /* WPAppDelegate.m */,
+				71F4F2EA1ADE0C6D00FBAE73 /* LoginViewController.h */,
+				71F4F2EB1ADE0C6D00FBAE73 /* LoginViewController.m */,
 				71F4F2ED1ADE0C6D00FBAE73 /* Main.storyboard */,
 				71F4F2F01ADE0C6D00FBAE73 /* Images.xcassets */,
 				71F4F2F21ADE0C6D00FBAE73 /* LaunchScreen.xib */,
@@ -219,8 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71F4F2EC1ADE0C6D00FBAE73 /* ViewController.m in Sources */,
-				71F4F2E91ADE0C6D00FBAE73 /* AppDelegate.m in Sources */,
+				71F4F2EC1ADE0C6D00FBAE73 /* LoginViewController.m in Sources */,
+				71F4F2E91ADE0C6D00FBAE73 /* WPAppDelegate.m in Sources */,
 				71F4F2E61ADE0C6D00FBAE73 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +418,7 @@
 				71F4F3051ADE0C6D00FBAE73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71F4F3061ADE0C6D00FBAE73 /* Build configuration list for PBXNativeTarget "virtual_phoneTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +427,7 @@
 				71F4F3081ADE0C6D00FBAE73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -6,13 +6,13 @@
 //  Copyright (c) 2015年 HRWY. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "WPAppDelegate.h"
 
-@interface AppDelegate ()
+@interface WPAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation WPAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
